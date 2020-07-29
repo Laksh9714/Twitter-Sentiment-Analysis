@@ -38,10 +38,10 @@ class KafkaPushListener(StreamListener):
 
 def main(hashtag):
     
-    consumer_key = "slMY9a0u7ECiy90cmQm6gudOI"
-    consumer_secret = "OGKntBZ5unXOBiEFsnPqjI73MMglyI0emnUaZt5XA2cC1dXXZE"
-    access_token = "2436900156-plKfSeKZopgq0p1rBzN7BUlamQuUPqWIqRoRdzw"
-    access_secret = "fBLvM1JZqPkJOcOpqPKXc3AoNlkSkeVRjrVjf39KCUZfk"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_secret = ""
     
     # TWITTER API AUTH
     auth = OAuthHandler(consumer_key, consumer_secret)
